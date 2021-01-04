@@ -1,3 +1,6 @@
+  This file has code which holds the metadata relevant to the project. It is in the project root.
+It has the dependencies specified that npm needs to identify in order to run the project.
+
 {
   "name": "reverseengineeringcode",
   "version": "1.0.0",
