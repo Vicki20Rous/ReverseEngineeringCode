@@ -1,3 +1,5 @@
+Instruction: update the password sections x 3 below with your own password for mySQL.
+
 {
   "development": {
     "username": "root",

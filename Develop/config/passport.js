@@ -1,3 +1,4 @@
+// change all consts/lets to vars to check functionality
 var passport = require("passport");
 var LocalStrategy = require("passport-local").Strategy;
 

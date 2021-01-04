@@ -1,3 +1,4 @@
+/* style sheet: adds some margin specifications for the user form */
 form.signup,
 form.login {
   margin-top: 50px;

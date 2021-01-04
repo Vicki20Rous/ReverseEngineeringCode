@@ -1,8 +1,20 @@
-'use strict';
+// changed all consts/lets to var to make sure functions worked
+// updated 'use strict' to the function version
 
+(function () {
+  'use strict';
+}());
+
+// specifying required modules
 var fs        = require('fs');
+//Node.js File System (FS) Module - this allows you to work with the file system on your computer.  Meaning we can then read, create, update, delete and rename files. 
 var path      = require('path');
+// The Path module allows us to work with file and directory paths in our file system.
 var Sequelize = require('sequelize');
+// // Sequelize is a promise-based Node.js ORM (Object Related Mapping) it supports MySQL and other database systems. 
+// Sequelize works to automatically map out the objects that we specify in our code to allow connection to the database and manipulate data. 
+// Sequelize is promise-based meaning it makes it easier for us to manage asynchronous functions (callbacks) and expectations in our code. 
+
 var basename  = path.basename(module.filename);
 var env       = process.env.NODE_ENV || 'development';
 var config    = require(__dirname + '/../config/config.json')[env];
