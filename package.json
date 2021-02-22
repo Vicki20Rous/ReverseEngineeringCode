@@ -1,32 +1,19 @@
-  This file has code which holds the metadata relevant to the project. It is in the project root.
-It has the dependencies specified that npm needs to identify in order to run the project.
-
 {
-  "name": "reverseengineeringcode",
+  "name": "post-model",
   "version": "1.0.0",
-  "description": "Reverse engineer the starter code provided and create a tutorial for the code.",
-  "main": "index.js",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Vicki20Rous/ReverseEngineeringCode.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Vicki20Rous/ReverseEngineeringCode/issues"
-  },
-  "homepage": "https://github.com/Vicki20Rous/ReverseEngineeringCode#readme",
   "dependencies": {
-    "bcryptjs": "^2.4.3",
-    "express": "^4.17.1",
-    "express-session": "^1.17.1",
-    "mysql2": "^2.2.5",
-    "passport": "^0.4.1",
-    "passport-local": "^1.0.0",
-    "sequelize": "^6.3.5"
-  },
-  "devDependencies": {}
+    "express": "^4.16.3",
+    "mysql2": "^1.6.4",
+    "sequelize": "^4.41.2"
+  }
 }
